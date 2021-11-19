@@ -1,0 +1,11 @@
+package com.group24.repository;
+
+
+import com.group24.models.Helpdesk;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface Helpdeskrepository extends JpaRepository<Helpdesk, Long> {
+
+}
